@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Timer = ({getRandomKey, focusInput, reset, calculateAccuracy, setInputDisable, setShowResults}) => {
 const KEYS = new Set('asdfkl;');
-  const [seconds, setSeconds] = useState(10);
+  const [seconds, setSeconds] = useState(300);
   const [isRunning, setIsRunning] = useState(false);
 
   useEffect(() => {

@@ -88,12 +88,13 @@ function App() {
             </div>
             <div className="ml-2">
           <input
-              className="h-12  w-full mt-8 text-center text-xl text-bold border-2 border-gray-400"
+              className="h-12  w-full mt-8 text-center text-3xl text-bold border-2 border-gray-400"
               type="text"
               onKeyDown={handleKeyDown}
               value={pressedKey}
               ref={inputRef}
               disabled = {inputDisable}
+              placeholder="TYPE HERE"
             />
         </div>
           </div>
